@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		182595B4263005D2007BB844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182595B3263005D2007BB844 /* AppDelegate.swift */; };
 		182595B6263005D2007BB844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182595B5263005D2007BB844 /* SceneDelegate.swift */; };
-		182595B8263005D2007BB844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182595B7263005D2007BB844 /* ViewController.swift */; };
 		182595BB263005D2007BB844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182595B9263005D2007BB844 /* Main.storyboard */; };
 		182595BD263005D6007BB844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182595BC263005D6007BB844 /* Assets.xcassets */; };
 		182595C0263005D6007BB844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182595BE263005D6007BB844 /* LaunchScreen.storyboard */; };
+		1872A15F263151AD00910A6C /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A15E263151AD00910A6C /* CategoryCollectionCell.swift */; };
+		1872A1642631523400910A6C /* ProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A1632631523400910A6C /* ProductCollectionCell.swift */; };
+		1872A175263159CB00910A6C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A174263159CB00910A6C /* ProductCell.swift */; };
+		1872A179263159E100910A6C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A178263159E100910A6C /* CategoryCell.swift */; };
+		1872A17C26315ACB00910A6C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A17B26315ACB00910A6C /* Product.swift */; };
+		1872A18126315BFA00910A6C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A18026315BFA00910A6C /* DataManager.swift */; };
+		1872A18826315D2300910A6C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A18726315D2300910A6C /* Category.swift */; };
+		1872A18F2631C24300910A6C /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872A18E2631C24300910A6C /* MainScreen.swift */; };
+		18D9E95926381B3700EB3F9C /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9E95826381B3700EB3F9C /* CustomNavigationBar.swift */; };
+		18D9E95D26381B5000EB3F9C /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D9E95C26381B5000EB3F9C /* CustomNavigationBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182595B0263005D2007BB844 /* leroymerlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leroymerlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182595B3263005D2007BB844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182595B5263005D2007BB844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		182595B7263005D2007BB844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182595BA263005D2007BB844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182595BC263005D6007BB844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182595BF263005D6007BB844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182595C1263005D6007BB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872A15E263151AD00910A6C /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
+		1872A1632631523400910A6C /* ProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionCell.swift; sourceTree = "<group>"; };
+		1872A174263159CB00910A6C /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		1872A178263159E100910A6C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		1872A17B26315ACB00910A6C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1872A18026315BFA00910A6C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1872A18726315D2300910A6C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1872A18E2631C24300910A6C /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		18D9E95826381B3700EB3F9C /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		18D9E95C26381B5000EB3F9C /* CustomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,104 @@
 		182595B2263005D2007BB844 /* leroymerlin */ = {
 			isa = PBXGroup;
 			children = (
-				182595B3263005D2007BB844 /* AppDelegate.swift */,
-				182595B5263005D2007BB844 /* SceneDelegate.swift */,
-				182595B7263005D2007BB844 /* ViewController.swift */,
-				182595B9263005D2007BB844 /* Main.storyboard */,
-				182595BC263005D6007BB844 /* Assets.xcassets */,
-				182595BE263005D6007BB844 /* LaunchScreen.storyboard */,
-				182595C1263005D6007BB844 /* Info.plist */,
+				1872A18526315C0100910A6C /* Managers */,
+				1872A17F26315AE100910A6C /* Model */,
+				182595CC263006E3007BB844 /* ViewControllers */,
+				182595CE26300716007BB844 /* Storyboards */,
+				188D9D7026382EB400CA11AC /* CustomNavigationBar */,
+				182595CA263006AE007BB844 /* Supporting Files */,
+				182595C926300695007BB844 /* Resources */,
 			);
 			path = leroymerlin;
+			sourceTree = "<group>";
+		};
+		182595C926300695007BB844 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182595BC263005D6007BB844 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		182595CA263006AE007BB844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182595B3263005D2007BB844 /* AppDelegate.swift */,
+				182595B5263005D2007BB844 /* SceneDelegate.swift */,
+				182595C1263005D6007BB844 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182595CC263006E3007BB844 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1872A15726306EB300910A6C /* Main Screen */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		182595CE26300716007BB844 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				182595B9263005D2007BB844 /* Main.storyboard */,
+				182595BE263005D6007BB844 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1872A14F26306E2500910A6C /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1872A178263159E100910A6C /* CategoryCell.swift */,
+				1872A174263159CB00910A6C /* ProductCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		1872A15426306E5800910A6C /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1872A15E263151AD00910A6C /* CategoryCollectionCell.swift */,
+				1872A1632631523400910A6C /* ProductCollectionCell.swift */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		1872A15726306EB300910A6C /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1872A18E2631C24300910A6C /* MainScreen.swift */,
+				1872A14F26306E2500910A6C /* Table Cell */,
+				1872A15426306E5800910A6C /* Collection Cell */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		1872A17F26315AE100910A6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1872A17B26315ACB00910A6C /* Product.swift */,
+				1872A18726315D2300910A6C /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1872A18526315C0100910A6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1872A18026315BFA00910A6C /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		188D9D7026382EB400CA11AC /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				18D9E95826381B3700EB3F9C /* CustomNavigationBar.swift */,
+				18D9E95C26381B5000EB3F9C /* CustomNavigationBar.xib */,
+			);
+			path = CustomNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D9E95D26381B5000EB3F9C /* CustomNavigationBar.xib in Resources */,
 				182595C0263005D6007BB844 /* LaunchScreen.storyboard in Resources */,
 				182595BD263005D6007BB844 /* Assets.xcassets in Resources */,
 				182595BB263005D2007BB844 /* Main.storyboard in Resources */,
@@ -137,9 +245,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182595B8263005D2007BB844 /* ViewController.swift in Sources */,
+				18D9E95926381B3700EB3F9C /* CustomNavigationBar.swift in Sources */,
+				1872A15F263151AD00910A6C /* CategoryCollectionCell.swift in Sources */,
 				182595B4263005D2007BB844 /* AppDelegate.swift in Sources */,
+				1872A18F2631C24300910A6C /* MainScreen.swift in Sources */,
+				1872A17C26315ACB00910A6C /* Product.swift in Sources */,
+				1872A179263159E100910A6C /* CategoryCell.swift in Sources */,
+				1872A1642631523400910A6C /* ProductCollectionCell.swift in Sources */,
+				1872A18126315BFA00910A6C /* DataManager.swift in Sources */,
+				1872A175263159CB00910A6C /* ProductCell.swift in Sources */,
 				182595B6263005D2007BB844 /* SceneDelegate.swift in Sources */,
+				1872A18826315D2300910A6C /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFL2ZFQWR4;
-				INFOPLIST_FILE = leroymerlin/Info.plist;
+				INFOPLIST_FILE = "leroymerlin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ddimpalass.leroymerlin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFL2ZFQWR4;
-				INFOPLIST_FILE = leroymerlin/Info.plist;
+				INFOPLIST_FILE = "leroymerlin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ddimpalass.leroymerlin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
